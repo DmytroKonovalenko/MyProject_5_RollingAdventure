@@ -30,14 +30,14 @@ public class CoinSploinkerController : MonoBehaviour
     private void Start()
     {
         LoadCoins();
-        AddCoins(1000);
+       
         FindCurrencyUI();
         UpdateUI();
     }
 
     private void FindCurrencyUI()
     {
-        GameObject uiObject = GameObject.Find("CurrencyUI");
+        GameObject uiObject = GameObject.Find("1otHRJJkGIDLxZpHTmiA");
         if (uiObject != null)
         {
             currencyUI = uiObject.GetComponent<CurrencyUI>();
